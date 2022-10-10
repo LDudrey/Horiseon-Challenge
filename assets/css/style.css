@@ -10,7 +10,8 @@ body {
 }
 
 /*Found solution https://stackoverflow.com/questions/57743633/how-do-you-add-a-navigation-bar-on-the-same-line-as-a-header*/
-.header {
+/* navbar defines top header and nav links*/
+.navbar {
     display:flex;
     justify-content:space-between;
     align-items:center; 
@@ -24,16 +25,16 @@ body {
     color: #ffffff;
 }
 
-#navbar {
+#navbarlinks {
     font-size: 20px;
 }
 
-#navbar li {
+#navbarlinks li {
     display:inline-block;
     padding: 0px 10px;
 }
 
-#navbar a {
+#navbarlinks a {
     text-decoration:none;
     color: #ffffff;
     padding-right: 10px;
@@ -43,6 +44,7 @@ p {
     font-size: 16px;
 }
 
+/*Main background image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -62,6 +64,7 @@ p {
     margin-left: 25px;
 }
 
+/*Main flex box container for info and benefits*/
 .container-main {
     display: flex;
     flex-direction: row;
@@ -76,7 +79,8 @@ p {
     padding-right: 40px;
 }
 
-.row {
+
+.info {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
