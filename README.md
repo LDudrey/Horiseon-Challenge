@@ -1,19 +1,20 @@
 # Horiseon-Challenge
-Refactoring Horiseon website for accessibility
+Horiseon Marketing Website accessibility.
 
 ## Description
-Project was with emphasis increasing efficiency of CSS and following semantic structure of the HTML elements to improve accessibility of website. 
+This project was taken on to improve Horiseon's site for accessiblity. Optimization of the logical structure of HTML elements and CSS code assists screen readers in navigating the website. Images have added alternate text for screen readers. An the CSS code was cleaned up and simplified.
 
 ## Usage
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](/Horiseon-Challenge/Develop/assets/images/01-html-css-git-homework-demo.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](/Horiseon-Challenge/assets/images/fullpageimage.png))
 
 ## Credits
-List your collaborators, if any, with links to their GitHub profiles.
+https://www.w3schools.com/css/default.asp
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+https://www.w3schools.com/html/default.asp
 
-If you followed tutorials, include links to those here as well.
+https://stackoverflow.com
+
 
 ## License
 Please refer to the LICENSE in the repo.
