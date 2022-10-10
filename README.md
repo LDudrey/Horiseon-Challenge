@@ -2,7 +2,7 @@
 Refactoring Horiseon website for accessibility
 
 ## Description
-Project was created to increasing efficiency of CSS and following semantic structure of the HTML elements to improve accessibility of Horiseon website. 
+Project was with emphasis increasing efficiency of CSS and following semantic structure of the HTML elements to improve accessibility of website. 
 
 ## Usage
 
