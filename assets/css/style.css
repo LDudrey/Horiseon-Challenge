@@ -66,21 +66,21 @@ p {
 }
 
 /*Main flexbox container for info and benefits*/
-.container-main {
+.container {
     display: flex;
     flex-direction: row;
     width: 100%;
     padding: 0px 20px 20px 20px;
 }
 
-.container {
+/*All .info selectors are a nested flexbox container for articles elements*/
+.infobox {
     display: flex;
     flex-direction: column;
     width: 80%;
     padding-right: 40px;
 }
 
-/*All .info selectors are a nested flexbox container for left section*/
 .info {
     margin-bottom: 20px;
     padding: 50px;
@@ -107,7 +107,7 @@ p {
     background-color: #2589bd;
 }
 
-.b-text {
+.b-box {
     flex-direction: row;
     padding: 18px;
 }
