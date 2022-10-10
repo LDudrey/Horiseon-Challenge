@@ -10,7 +10,8 @@ body {
 }
 
 /*Found solution https://stackoverflow.com/questions/57743633/how-do-you-add-a-navigation-bar-on-the-same-line-as-a-header*/
-.header {
+/*The selectors of .navbar defines top header and nav links*/
+.navbar {
     display:flex;
     justify-content:space-between;
     align-items:center; 
@@ -18,22 +19,23 @@ body {
     padding: 20px;
   }
 
+/*Company name size and color on header*/
 #h1 {
     font-size: 48px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
 }
 
-#navbar {
+#navbarlinks {
     font-size: 20px;
 }
 
-#navbar li {
+#navbarlinks li {
     display:inline-block;
     padding: 0px 10px;
 }
 
-#navbar a {
+#navbarlinks a {
     text-decoration:none;
     color: #ffffff;
     padding-right: 10px;
@@ -43,6 +45,7 @@ p {
     font-size: 16px;
 }
 
+/*Main background image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -62,6 +65,7 @@ p {
     margin-left: 25px;
 }
 
+/*Main flexbox container for info and benefits*/
 .container-main {
     display: flex;
     flex-direction: row;
@@ -76,7 +80,8 @@ p {
     padding-right: 40px;
 }
 
-.row {
+/*All .info selectors are a nested flexbox container for left section*/
+.info {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -84,15 +89,16 @@ p {
     color: #ffffff;
 }
 
-.row img {
+.info img {
     max-height: 200px;
 }
 
-.row h2 {
+.info h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*All .b-"  " and .benefits are a nested flexbox container for right side business benefits section*/
 .b-container {
     width: 20%;
     height: 100%;
@@ -121,12 +127,14 @@ p {
     max-width: 150px;
 }
 
+/*Footer position*/
 footer {
     padding: 30px;
     clear: both;
     text-align: center;
 }
 
+/*Changes font size of h4 to be larger*/
 footer h4 {
     font-size: 20px;
 }
