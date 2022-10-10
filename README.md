@@ -6,6 +6,8 @@ This project was taken on to improve Horiseon's site for accessiblity. Optimizat
 
 ## Usage
 
+
+
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](/Horiseon-Challenge/assets/images/fullpageimage.png))
 
 ## Credits
