@@ -10,7 +10,7 @@ body {
 }
 
 /*Found solution https://stackoverflow.com/questions/57743633/how-do-you-add-a-navigation-bar-on-the-same-line-as-a-header*/
-/* navbar defines top header and nav links*/
+/*The selectors of .navbar defines top header and nav links*/
 .navbar {
     display:flex;
     justify-content:space-between;
@@ -19,6 +19,7 @@ body {
     padding: 20px;
   }
 
+/*Company name size and color on header*/
 #h1 {
     font-size: 48px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -64,21 +65,21 @@ p {
     margin-left: 25px;
 }
 
-/*Main flex box container for info and benefits*/
-.container-main {
+/*Main flexbox container for info and benefits*/
+.container {
     display: flex;
     flex-direction: row;
     width: 100%;
     padding: 0px 20px 20px 20px;
 }
 
-.container {
+/*All .info selectors are a nested flexbox container for articles elements*/
+.infobox {
     display: flex;
     flex-direction: column;
     width: 80%;
     padding-right: 40px;
 }
-
 
 .info {
     margin-bottom: 20px;
@@ -88,15 +89,16 @@ p {
     color: #ffffff;
 }
 
-.row img {
+.info img {
     max-height: 200px;
 }
 
-.row h2 {
+.info h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*All .b-"  " and .benefits are a nested flexbox container for right side business benefits section*/
 .b-container {
     width: 20%;
     height: 100%;
@@ -105,7 +107,7 @@ p {
     background-color: #2589bd;
 }
 
-.b-text {
+.b-box {
     flex-direction: row;
     padding: 18px;
 }
@@ -125,12 +127,14 @@ p {
     max-width: 150px;
 }
 
+/*Footer position*/
 footer {
     padding: 30px;
     clear: both;
     text-align: center;
 }
 
+/*Changes font size of h4 to be larger*/
 footer h4 {
     font-size: 20px;
 }
